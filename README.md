@@ -31,13 +31,13 @@ The game environment simulates a Pacman Game here Pacman attempts to maximize it
 
 ## Run commands:
 **Reflex Agent**
-python pacman.py -p ReflexAgent -l testClassic
+python autograder.py -q q1
 
 **Minimax Agent**
-python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=4
+python autograder.py -q q2
 
 **Alpha-beta Agent**
-python pacman.py -p AlphaBetaAgent -l minimaxClassic -a depth=2
+python autograder.py -q q3
 
 **Expectimax Agent**
-python pacman.py -p ExpectimaxAgent -l minimaxClassic -a depth=3
+python autograder.py -q q4
